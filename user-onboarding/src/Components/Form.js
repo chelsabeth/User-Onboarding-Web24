@@ -54,7 +54,9 @@ const UserForm = ({ values, errors, touched, status }) => {
         {user.map(users => ( // map through the user array
             <ul key={users.id}>
                 <li>Name: {users.name}</li>
-                <li>Email: {users.email}</li>  {/* the list items make the name and email display on the screen, didn't want to display password because it is personal information :) */}
+                <li>Email: {users.email}</li> 
+                <li>Role: {users.role}</li> 
+                {/* the list items make the name and email display on the screen, didn't want to display password because it is personal information :) */}
             </ul>
         ))}
     </div> 
