@@ -56,7 +56,7 @@ const UserForm = ({ values, errors, touched, status }) => {
                 <li>Name: {users.name}</li>
                 <li>Email: {users.email}</li> 
                 <li>Role: {users.role}</li> 
-                {/* the list items make the name and email display on the screen, didn't want to display password because it is personal information :) */}
+                {/* the list items make the name, email and role display on the screen, didn't want to display password because it is personal information :) */}
             </ul>
         ))}
     </div> 
