@@ -1,3 +1,7 @@
+body {
+  background-image: url("./purple-background.jpg");
+}
+
 .App {
   text-align: center;
 }
@@ -20,3 +24,22 @@
 .App-link {
   color: #09d3ac;
 }
+
+.user-form {
+  border: 2px solid purple;
+  background-color: mediumorchid;
+  color: white;
+  font-size: 20px;
+}
+
+.header {
+  color: white;
+}
+
+.submit-btn {
+  font-size: 20px;
+}
+
+/* I tried to make it pretty 😅 */
+
+
